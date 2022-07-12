@@ -1,4 +1,5 @@
 pub mod rng;
+pub use rng::*;
 
 #[cfg(test)]
 mod tests {
