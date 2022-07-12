@@ -5,6 +5,11 @@ pub struct Rng {
 }
 
 impl Rng {
+    pub fn new() -> Self {
+        Self {
+            state: 0,
+        }
+    }
     pub fn seed(&mut self, state: u64) {
         self.state = state;
     }
