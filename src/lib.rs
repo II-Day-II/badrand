@@ -1,4 +1,4 @@
-mod rng;
+pub mod rng;
 
 #[cfg(test)]
 mod tests {
